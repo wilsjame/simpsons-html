@@ -27,3 +27,6 @@ img {
     display: block;
     margin: 0 auto;
 }
+.container {
+    text-align: center;
+}
