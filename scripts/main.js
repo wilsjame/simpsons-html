@@ -23,11 +23,10 @@ function setUserName() {
 }
 
 if(!localStorage.getItem('name')) {
-    setUserName();
+    myHeading.textContent = "Lisa Simpson";
 } else {
     let storedName = localStorage.getItem('name');
     myHeading.textContent = `${storedName} Simpson`;
-
 }
 
 myButton.onclick = function() {
